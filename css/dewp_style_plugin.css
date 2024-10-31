@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.modal-backdrop.show { display: none; }
+button.btn.btn-primary.btn-wqp { margin: 0 5px; }
+.modal.fade.modal-wqp { background-color: rgba(0,0,0,.35); padding-top: 0px; }
+.modal-dialog.modal-dialog-centered.modal-dialog-wqp { max-width: 50%; }
+button.close.close-wqp { padding: 10px; font-size: 2rem; line-height: 1rem; }
+.modal-header.modal-header-wqp { border-bottom: none; }
+.modal-body.modal-body-wqp { display: flex; text-align: left; }
+.modal-body.modal-body-wqp div { flex-grow: 1; flex-basis: 0; }
+.modal-body.modal-body-wqp table:not( .has-background ) tbody td { background-color: #eeeeee; }
+.modal-body.modal-body-wqp form.variations_form.cart { margin-bottom: 0; }
+.modal-body.modal-body-wqp form.cart { margin-bottom: 0; }
+.modal-body-col-left-wqp { max-width: 25%; margin-right: 30px; text-align: center; }
+.modal-content .quantity, .modal-content button  { display: inline-block; }
+
+/* CSS storefront theme */
+
+/* CSS beTheme theme */
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { position: inherit !important; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+.modal-dialog.modal-dialog-centered.modal-dialog-wqp { max-width: 100%; }
+.modal-body.modal-body-wqp { display: block; }
+.modal-body-col-left-wqp { max-width: unset; margin-right: unset; }
+}
